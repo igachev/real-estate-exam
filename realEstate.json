@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "size": 120,
+      "price": 250000,
+      "location": "Burgas",
+      "amenities": ["Parking", "Balcony", "Gym"],
+      "photos": ["./images/1.jpg"],
+      "type": "Apartment",
+      "rooms": 3,
+      "locationUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2940.722904346366!2d27.454284876608725!3d42.5186962250638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a69378d8743f07%3A0xa1ba44ba6115a56c!2z0YPQuy4g4oCe0JPQtdC-0YDQs9C4INCc0LjQvdC60L7QsuKAnCwgODAwNSDQkdGD0YDQs9Cw0YE!5e0!3m2!1sbg!2sbg!4v1743252065305!5m2!1sbg!2sbg"
+    },
+    {
+      "id": 2,
+      "size": 200,
+      "price": 450000,
+      "location": "Sofia",
+      "amenities": ["Swimming Pool", "Garage", "Garden"],
+      "photos": ["./images/2.jpg"],
+      "type": "House",
+      "rooms": 5,
+      "locationUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.6312334825366!2d23.318491376614453!3d42.6691694155162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8454335c4387%3A0x5b1fc2ee88bc746!2z0LYu0LouINCb0L7Qt9C10L3QtdGGLCDRg9C7LiDigJ7QlNGA0LDQs9Cw0LvQtdCy0YHQutCw4oCcLCAxNDA3INCh0L7RhNC40Y8!5e0!3m2!1sbg!2sbg!4v1743251968997!5m2!1sbg!2sbg"
+    },
+    {
+      "id": 3,
+      "size": 80,
+      "price": 180000,
+      "location": "Varna",
+      "amenities": ["Elevator", "Gym", "Security"],
+      "photos": ["./images/3.jpg"],
+      "type": "Apartment",
+      "rooms": 2,
+      "locationUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.850201282379!2d27.910222576635462!3d43.212631180813425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a454739725296b%3A0x8755e3fd91704a8c!2z0JLQsNGA0L3QsCDQptC10L3RgtGK0YAsINGD0LsuIOKAntCf0LjRgNC40L3igJwsINCS0LDRgNC90LA!5e0!3m2!1sbg!2sbg!4v1743252370593!5m2!1sbg!2sbg"
+    },
+    {
+      "id": 4,
+      "size": 150,
+      "price": 320000,
+      "location": "Kazanlak",
+      "amenities": ["Sea View", "Terrace", "Garage"],
+      "photos": ["./images/4.jpg"],
+      "type": "House",
+      "rooms": 4,
+      "locationUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2935.9297282490566!2d25.399709376612602!3d42.62044631861049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a8540430d5ad59%3A0x38e0b95b273d5e60!2z0YPQuy4g4oCe0KHRgtCw0YDQvtC30LDQs9C-0YDRgdC60LDigJwsINCa0LDQt9Cw0L3Qu9GK0Lo!5e0!3m2!1sbg!2sbg!4v1743251241440!5m2!1sbg!2sbg"
+    },
+    {
+      "id": 5,
+      "size": 95,
+      "price": 210000,
+      "location": "Sofia",
+      "amenities": ["Gym", "Balcony", "Parking"],
+      "photos": ["./images/5.jpg"],
+      "type": "Apartment",
+      "rooms": 3,
+      "locationUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.0840325314293!2d23.320122876614096!3d42.65957461612564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa845cab59a8d9%3A0xfab2cca4db9c8cee!2z0YPQuy4g4oCe0KHRgNC10LHRitGA0L3QsOKAnCwg0KHQvtGE0LjRjw!5e0!3m2!1sbg!2sbg!4v1743251880658!5m2!1sbg!2sbg"
+    },
+    {
+      "id": 6,
+      "size": 180,
+      "price": 380000,
+      "location": "Varna",
+      "amenities": ["Garden", "Garage", "Fireplace"],
+      "photos": ["./images/6.jpg"],
+      "type": "House",
+      "rooms": 4,
+      "locationUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.9406962195712!2d27.91290187663531!3d43.2107331809353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4540b524be03b%3A0x94c08c96be61fe5e!2z0JLQsNGA0L3QsCDQptC10L3RgtGK0YDQntC00LXRgdC-0YEsINGD0LsuICLQkdGA0LDRgtGPINCc0LjQu9Cw0LTQuNC90L7QstC44oCcLCDQktCw0YDQvdCw!5e0!3m2!1sbg!2sbg!4v1743252580732!5m2!1sbg!2sbg"
+    },
+    {
+      "id": 7,
+      "size": 110,
+      "price": 275000,
+      "location": "Plovdiv",
+      "amenities": ["Underground Parking", "Security", "Balcony"],
+      "photos": ["./images/7.jpg"],
+      "type": "Apartment",
+      "rooms": 3,
+      "locationUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.6685211870545!2d24.720195876594254!3d42.1359790492283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14acd02c52a6c2cb%3A0x1d6d0729a366e8bb!2z0LYu0LouINCl0YDQuNGB0YLQviDQodC80LjRgNC90LXQvdGB0LrQuNCX0LDQv9Cw0LTQtdC9LCDRg9C7LiDigJ7Qk9C10L3QtdGA0LDQuyDQmtC-0LvQtdCy4oCcLCA0MDAyINCf0LvQvtCy0LTQuNCy!5e0!3m2!1sbg!2sbg!4v1743252678472!5m2!1sbg!2sbg"
+    },
+    {
+      "id": 8,
+      "size": 250,
+      "price": 500000,
+      "location": "Burgas",
+      "amenities": ["Garden", "Terrace", "Private Pool"],
+      "photos": ["./images/8.jpg"],
+      "type": "House",
+      "rooms": 6,
+      "locationUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2941.096717065434!2d27.468838256452962!3d42.51075260485074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a69485745fe7b7%3A0xdf91b1bfdb812f12!2z0LYu0LouINCb0LDQt9GD0YAsINGD0LsuIOKAntCi0L7QtNC-0YAg0JrQsNCx0LvQtdGI0LrQvtCy4oCcLCA4MDAxINCR0YPRgNCz0LDRgQ!5e0!3m2!1sbg!2sbg!4v1743252256770!5m2!1sbg!2sbg"
+    },
+    {
+      "id": 9,
+      "size": 70,
+      "price": 150000,
+      "location": "Sofia",
+      "amenities": ["Balcony", "Gym", "Elevator"],
+      "photos": ["./images/9.jpg"],
+      "type": "Apartment",
+      "rooms": 2,
+      "locationUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.2262007251784!2d23.323782576613954!3d42.656561716317086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa844051f1cea9%3A0x76e856947ca22a73!2z0YPQuy4g4oCe0JzQvtCz0LjQu9Cw0YLQsOKAnCwg0KHQvtGE0LjRjw!5e0!3m2!1sbg!2sbg!4v1743251786782!5m2!1sbg!2sbg"
+    },
+    {
+      "id": 10,
+      "size": 220,
+      "price": 420000,
+      "location": "Sofia",
+      "amenities": ["Garage", "Fireplace", "Garden"],
+      "photos": ["./images/10.jpg"],
+      "type": "House",
+      "rooms": 5,
+      "locationUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.1787609203575!2d23.27962227661575!3d42.69993551356077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa9ab58a8ca6a9%3A0x4a6fdb3af644fd2e!2z0LYu0LouINCX0LDQv9Cw0LTQtdC9INC_0LDRgNC6LCDRg9C7LiDigJ7QmtC10L3QsNC70LjigJwsIDEzNzMg0KHQvtGE0LjRjw!5e0!3m2!1sbg!2sbg!4v1743251622073!5m2!1sbg!2sbg"
+    },
+    {
+      "id": 11,
+      "size": 130,
+      "price": 295000,
+      "location": "Kazanlak",
+      "amenities": ["Terrace", "Parking", "Security"],
+      "photos": ["./images/11.jpg"],
+      "type": "Apartment",
+      "rooms": 3,
+      "locationUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2935.963696937046!2d25.39904157661258!3d42.61972591865635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a8540417050421%3A0x70a06391e55ef786!2z0LrQsi4g0J_RitGA0LLQuCDQvNCw0LksINGD0LsuIOKAntCi0YPQu9C-0LLQvuKAnCwgNjEwMiDQmtCw0LfQsNC90LvRitC6!5e0!3m2!1sbg!2sbg!4v1743251418911!5m2!1sbg!2sbg"
+    }
+  ]
+  

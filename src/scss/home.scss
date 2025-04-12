@@ -1,0 +1,102 @@
+/* stylelint-disable media-feature-range-notation */
+
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: $section-width-primary;
+    border: 1px solid black;
+    background-color: $section-bg-primary;
+    padding: 0.5rem;
+    margin: auto;
+    border-radius: 0.7rem;
+    box-shadow: $box-shadow-primary;
+
+    h1 {
+        font-size: $h1-size-lg;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+
+    .welcome-message {
+      font-size: 1.4rem;
+      font-weight: 300;
+      opacity: 0.9;
+      font-style: italic;
+    }
+
+    article {
+        width: 97%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .img-container {
+          display: flex;
+          position: relative;
+          
+          img {
+            min-width: 200px;
+            width: 100%;
+            max-height: 700px;
+            object-fit: cover;
+            filter: brightness(40%);
+            border-radius: 0.4rem;
+          }
+
+          p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.7rem;
+          }
+
+        }
+
+        .slider-btn-container {
+          padding: 0 0.3rem;
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+  .home-section {
+    h1 {
+      font-size: $h1-size-md;
+    }
+
+    .welcome-message {
+      font-size: 1rem;
+    }
+
+    article {
+      .img-container {
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .home-section {
+    .welcome-message {
+      font-size: 0.8rem;
+    }
+
+    article {
+      .img-container {
+        p {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+}

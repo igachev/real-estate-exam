@@ -1,0 +1,21 @@
+/* stylelint-disable at-rule-no-unknown */
+
+@mixin basicBtn() {
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: $btn-bg-primary;
+    color: $text-color-primary;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+        background-color: $btn-bg-hover;
+    }
+}
+
+.basic-btn {
+    @include basicBtn;
+}

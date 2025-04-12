@@ -1,0 +1,30 @@
+/* stylelint-disable alpha-value-notation */
+/* stylelint-disable color-function-notation */
+/* stylelint-disable import-notation */
+@import "_variables.scss";
+@import "_fonts.scss";
+@import "_button.scss";
+@import "home.scss";
+@import "contacts.scss";
+@import "gallery.scss";
+@import "header.scss";
+@import "footer.scss";
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* stylelint-disable-next-line font-family-name-quotes */
+    font-family: $roboto-font-family;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(90deg, rgba(18,18,23,1) 0%, rgba(31,26,26,1) 50%, rgba(152,160,171,1) 100%);
+    color: $text-color-primary;
+    line-height: 1.6;
+}

@@ -1,0 +1,300 @@
+/* stylelint-disable color-function-notation */
+
+.gallery-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: $section-width-primary;
+    border: 1px solid black;
+    background-color: $section-bg-primary;
+    padding: 0.5rem;
+    margin: auto;
+    border-radius: 0.7rem;
+    box-shadow: $box-shadow-primary;
+
+    h1 {
+        font-size: $h1-size-lg;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+
+    .property-search {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.7rem;
+
+        .search-input {
+            padding: 0.5rem 0.9rem;
+            border-radius: 0.6rem;
+            font-size: 1.2rem;
+            border: none;
+            outline: none;
+            width: 50%;
+            box-shadow: $box-shadow-primary;  
+        }
+
+        .sort-by-price {
+            margin: 0.8rem 0.5rem;
+            font-size: 1.2rem;
+            width: fit-content;
+            border: none;
+            border-radius: 0.6rem;
+            outline: none;
+            padding: 0.5rem 0.9rem;
+            font-weight: 400; 
+            opacity: 0.9;
+            letter-spacing: 1px;
+            cursor: pointer;
+            box-shadow: $box-shadow-primary;   
+        }
+
+        fieldset {
+            border-radius: 0.3rem;
+            border-color: black;
+            border-style: double;
+
+            legend {
+                margin: 0.3rem 0.5rem;
+                border-radius: 0;
+                border: 0;
+                font-size: 1.3rem;
+                padding: 0 0.3rem;
+                font-weight: 400;
+                letter-spacing: 1px;
+                opacity: 0.9;
+            }
+
+            label {
+                margin-left: 0.5rem;
+                font-size: 1.4rem;
+                font-weight: 400;
+                opacity: 0.9;
+                padding: 0.3rem 0.6rem;
+                letter-spacing: 0.5px;
+                font-style: italic;
+            }
+
+            input {
+                margin-left: 0.3rem;
+                
+            }
+        }
+
+        .submit-btn {
+            cursor: pointer;
+            font-size: 1.4rem;
+            background-color: $btn-bg-primary;
+            color: #fff;
+            border: none;
+            border-radius: 0.5rem;
+            padding: 0.4rem 0.6rem;
+            transition: all 0.3s ease-in;
+            margin-left: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .submit-btn:hover {
+            background-color: $btn-bg-hover;
+        }
+        
+    }
+
+    .properties-container {
+        width: 95%;
+        padding: 1rem;
+        background-color: $article-bg-primary;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        box-shadow: $box-shadow-primary;
+        /* stylelint-disable-next-line font-family-name-quotes */
+        font-family: $poppins-font-family;
+
+        .property-card {
+            padding: 0.5rem 0.8rem;
+            border: 1px solid black;
+            border-radius: 1rem;
+            background-color: white;
+            color: black;
+            text-align: center;
+            transition: all 0.3s linear;
+
+          .property-type {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin: 0.5rem 0;
+            opacity: 0.9;
+          }
+
+            .property-img-container img {
+                object-fit: cover;
+                width: 300px;
+                height: 300px;
+                border-radius: 0.5rem;
+                margin-bottom: 0.3rem;
+            }
+
+            .property-price {
+                font-size: 1.3rem;
+                font-weight: 400;
+                opacity: 0.75;
+                margin-bottom: 0.4rem;
+            }
+
+            .property-location {
+                font-size: 1rem;
+                font-weight: 300;
+                font-style: italic;
+                margin-bottom: 0.3rem;
+            }
+
+            .hidden {
+                display: none;
+            }
+
+            .size {
+                font-size: 1rem;
+                font-weight: 300;
+                margin-bottom: 0.4rem;
+            }
+
+            .room {
+                font-size: 1rem;
+                font-weight: 300;
+                margin-bottom: 0.4rem;
+            }
+
+            .amenity-info {
+                font-size: 1.5rem;
+                font-weight: 500;
+                margin-bottom: 0.4rem;
+            }
+
+            .amenity {
+                font-size: 1.2rem;
+                font-weight: 300;
+                letter-spacing: 1px;
+                font-style: italic;
+            }
+
+            iframe {
+                margin-top: 0.7rem;
+            }
+
+            .property-btn-container {
+                width: 90%;
+                text-align: center;
+            }
+        }
+    }
+
+    .pagination-container {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 0.4rem 0.6rem;
+        border-radius: 0.8rem;
+        width: 50%;
+        background-color: $article-bg-primary;
+        box-shadow: $box-shadow-primary;
+
+        .number-box {
+            font-size: 1.2rem;
+        }
+
+        .active {
+            border: 2px solid black;
+            border-radius: 0.3rem;
+            padding: 0.5rem;
+            font-weight: bold;
+            background-color: white;
+            color: black;
+        }
+            
+        
+    }
+}
+
+/* stylelint-disable-next-line media-feature-range-notation */
+@media screen and (max-width:700px) {
+    .gallery-section {
+        h1 {
+            font-size: $h1-size-md;
+        }
+
+        .property-search {
+            .search-input {
+                font-size: 1rem;
+            }
+
+            .sort-by-price {
+                font-size: 1rem;
+            }
+
+            fieldset {
+                legend {
+                    font-size: 1rem;
+                }
+
+                label {
+                    font-size: 0.9rem;
+                }  
+            }
+
+            .submit-btn {
+                font-size: 1.1rem;
+            }
+        }
+
+        .properties-container {
+            .property-card {
+                .property-type {
+                    font-size: 1.2rem;
+                }
+
+                .property-price {
+                    font-size: 1rem;
+                }
+
+                .amenity-info {
+                    font-size: 1.2rem;
+                }
+
+                .amenity {
+                    font-size: 1rem;
+                }
+
+                .property-btn-container {
+                    button {
+                        font-size: 1rem;
+                    }
+                }    
+            }
+        }
+
+        .pagination-container {
+            width: 90%;
+
+            .number-box {
+                font-size: 0.9rem;
+            }
+
+            /* stylelint-disable-next-line no-descending-specificity */
+            button {
+                font-size: 1rem;
+            }
+        }
+    }
+}

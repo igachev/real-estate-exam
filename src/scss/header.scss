@@ -1,0 +1,98 @@
+/* stylelint-disable media-feature-range-notation */
+
+header {
+    width: $section-width-primary;
+    height: 100px;
+    background-color: $section-bg-primary;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0.6rem;
+    margin: auto;
+    border-radius: 0.7rem;
+    box-shadow: $box-shadow-primary;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+    nav {
+        ul {
+            display: flex;
+
+            li {
+                list-style: none;
+                margin-right: 0.9rem;
+                text-align: center;
+
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: $text-color-primary;
+                    padding: 0.3rem 0.6rem;
+                    font-size: 1.2rem;
+                    letter-spacing: 2px;
+                    position: relative;
+                }
+
+                a::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 5px;
+                    left: 50%;
+                    width: 0;
+                    height: 2px;
+                    background-color: red;
+                    transition: width 0.3s linear;
+                    transform: translateX(-50%);
+                }
+                
+                a:hover::after {
+                    width: 50px;
+ 
+                }
+
+                .subnav {
+                    position: relative;
+
+                    .subnav-content {
+                        display: none;
+                        position: absolute;
+                        left: 0;
+                        z-index: 999;
+                    }
+                }
+
+                .subnav:hover .subnav-content {
+                    display: flex;
+                  }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:900px) {
+    header {
+        width: 70%;
+        min-height: 250px;
+        align-items: flex-start;
+        padding: 0.5rem;
+
+        nav {
+            ul {
+                flex-direction: column;
+
+                li {
+                    a {
+                        font-size: 0.9rem;
+                    }
+
+                    .subnav {
+                        .subnav-content {
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

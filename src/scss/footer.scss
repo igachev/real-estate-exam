@@ -1,0 +1,57 @@
+/* stylelint-disable media-feature-range-notation */
+
+footer {
+    width: $section-width-primary;
+    background-color: $section-bg-primary;
+    padding: 0.8rem 0.6rem;
+    margin: auto;
+    border-radius: 0.7rem;
+    box-shadow: $box-shadow-primary;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+    article {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .statistics {
+            width: 25%;
+            border-left: 2px solid #fff;
+            padding-left: 0.6rem;
+            
+            h4 {
+                font-size: 1.4rem;
+                color: $text-color-primary;
+            }
+
+            p {
+                font-size: 1.2rem;
+                color: $text-color-primary;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    footer {
+        width: 85%;
+
+        article {
+            flex-direction: column;
+
+            .statistics {
+                margin-bottom: 0.5rem;
+
+                h4 {
+                    font-size: 1.1rem;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
