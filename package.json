@@ -7,8 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass src/scss/style.scss:dist/css/style.css --watch",
-    "lint": "eslint && npx stylelint \"src/scss/**/*.scss\""
-
+    "lint": "eslint && npx stylelint \"src/scss/**/*.scss\"",
+    "build": "npm install && sass src/scss/style.scss dist/css/style.css && tsc && cp -r images dist/ && cp index.html dist/ && sed -i 's/href=\"style.css\"/href=\".\\/css\\/style.css\"/' dist/index.html && sed -i 's/src=\"app.js\"/src=\"app.js\"/' dist/index.html"
   },
   "keywords": [],
   "author": "",
